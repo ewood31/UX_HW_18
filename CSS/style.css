@@ -1,0 +1,60 @@
+body {
+    background-color: #E4CABE;
+}
+h1{
+    color:#2B3138;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    color: #2B3138;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+    color: #2B3138;
+    font-size: 150;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    color: #2B3138;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero {
+    position: relative;
+}
+.hero-overlay{
+    position: absolute;
+    text-align: left;
+    text-transform: uppercase;
+}
+.hero-image{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    overflow: visible;
+    z-index: -1;
+    width:100%;
+}
+.footer-image{
+    display:block;
+    margin-left:auto;
+    overflow: visible;
+    z-index: -1;
+    width:50%;
+    float:left;
+    padding-right:12px
+}
+#meetTeam{
+    color: #2B3138;
+    font-size: 200;
+    font-weight: 500;
+    overflow:hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+}
