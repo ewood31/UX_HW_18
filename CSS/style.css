@@ -1,6 +1,24 @@
 body {
     background-color: #ECD9CE;
 }
+
+.headerMenu {
+    background-color: blanchedalmond;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#2B3138;
+}
+
+#headerNav {
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 50px;
+}
+
+#headerNav a {
+    margin-right: 50px;
+}
+
 h1{
     color:#2B3138;
     font-size: 64px;
@@ -80,6 +98,7 @@ p{
 
 .item1 {
     grid-area: lglt;
+    font-size: 96px;
 }
  
 .item2 {
