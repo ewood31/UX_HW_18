@@ -1,5 +1,5 @@
 body {
-    background-color: #E4CABE;
+    background-color: #ECD9CE;
 }
 h1{
     color:#2B3138;
@@ -60,4 +60,52 @@ p{
     justify-content: right;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.socialContainer {
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-areas: 
+    'lglt lglt md md rttpsm lgrt lgrt'
+    'lglt lglt md md cttpsm lgrt lgrt'
+    'lglt lglt ltbtsm ctbtsm rtbtsm lgrt lgrt';
+}
+.socialContainer > div {
+    background-color: #969C7B;
+    border-radius: 5px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.item1 {
+    grid-area: lglt;
+}
+ 
+.item2 {
+    grid-area: md;
+}
+
+.item3 {
+    grid-area: rttpsm;
+}
+
+.item4 {
+    grid-area: cttpsm;
+}
+
+.item5 {
+    grid-area: ltbtsm;
+}
+
+.item6 {
+    grid-area: ctbtsm;
+}
+
+.item7 {
+    grid-area: rtbtsm;
+}
+
+.item8 {
+    grid-area: lgrt;
 }
