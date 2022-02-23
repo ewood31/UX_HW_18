@@ -49,18 +49,46 @@
     margin-right: 50px;
 }
 
+a:link {
+    color: #2B3138;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #A27A6F;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #616C4D;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color:#616C4D;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 h1{
     color:#2B3138;
     font-size: 64px;
     font-weight: 700;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1.5px 1.5px 1.5px #969C7B;
 }
+
 h2{
     color: #2B3138;
     font-size: 48px;
     font-weight: 500;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 1px #969C7B;
 }
+
 h3 {
     color: #2B3138;
     font-size: 30px;
@@ -129,7 +157,7 @@ p{
     font-size: 200;
     font-weight: 500;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px 100px;
+    padding: 100px 100px;
 }
 
 
